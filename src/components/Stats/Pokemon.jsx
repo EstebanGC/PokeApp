@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {useParams} from 'react-router-dom'
+import {useParams, Link} from 'react-router-dom'
 import {getPokemon} from '../../services/pokemon'
 import typeColors from '../helpers/typeColors'
 
@@ -59,8 +59,9 @@ function Pokemon() {
                     <p className="title2">{pokemonData.abilities[0].ability.name}</p>
                 </div>
             </div>
+        <Link className='btn' to={`/`}><button>Back</button></Link>
         </div>}</div>
-        
+
     )
 }
 

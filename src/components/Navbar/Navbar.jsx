@@ -4,7 +4,8 @@ import './style.css'
 function Navbar() {
     return (
         <div className="Navbar">
-            PokeAPI
+            <img className="img" src="./public/pokeball.png" />
+                PokeAPI
         </div>
     )
 }

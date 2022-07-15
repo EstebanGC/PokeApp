@@ -3,3 +3,9 @@
     background:#596671 ;
     color: white;
 }
+
+.img {
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
